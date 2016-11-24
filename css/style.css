@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-color: #cccccc;
+  font-family: Raleway;
+}
+
+#quoteArea {
+  border: 1px solid white;
+  width: 500px;
+  height: auto;
+  margin: 5% auto;
+  padding: 15px;
+  background-color:rgba(226, 232, 109, 0.4);
+  border-radius: 15px;
+  box-shadow: -8px 8px 8px rgba(100,100,100,.8);
+}
+
+#quoteAuthor {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1em;
+}
+
+#quoteItself{
+  font-family: Raleway, cursive;
+  font-size: 2em;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 40%;
+}
+
+.buttons{
+  padding-bottom:40px;
+}
