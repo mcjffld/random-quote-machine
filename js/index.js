@@ -43,6 +43,7 @@ var output = $.ajax({
     data: {}, // Additional parameters here
     dataType: 'json',
     success: function(data) {
+      data = data[0]
       quote = data.quote;
       author = data.author;
       $("#quoteItself").html("<span class='fa fa-quote-left'></span><br>" + quote + "<br><span class='fa fa-quote-right'></span>");
