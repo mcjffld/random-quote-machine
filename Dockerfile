@@ -1,8 +1,4 @@
-FROM centos:7
-
-RUN yum install -y epel-release
-
-RUN yum install -y nginx
+FROM nginx
 
 EXPOSE 80
 
@@ -16,5 +12,5 @@ COPY js /usr/share/nginx/html/js
 
 COPY css /usr/share/nginx/html/css
 
-CMD /usr/sbin/nginx -g "daemon off;"
+COPY nginx.conf /etc/nginx/nginx.conf
 
